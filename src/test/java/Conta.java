@@ -3,45 +3,41 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class Conta {
-	
-	/**
-	 * 
-	 * @param int1 Este eh o primeiro parametro
-	 */
-	
+	/** Um cliente especial está com um determinado valor inteiro disponível em sua conta */
 	@Given("Um cliente especial com saldo atual de {int} reais")
 	public void um_cliente_especial_com_saldo_atual_de_reais(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("For solicitado um saque no valor de {int} reais")
+	/** O cliente solicita um determinado valor inteiro de saque em sua conta */
+	@When("for solicitado um saque no valor de {int} reais")
 	public void for_solicitado_um_saque_no_valor_de_reais(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("Deve efetuar o saque e atualizar o saldo na conta para {int} reais")
-	public void deve_efetuar_o_saque_e_atualizar_o_saldo_na_conta_para_reais(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
+	/** O saque deve ser efetuado e o saldo atualizado de acordo com o valor após o saque, independente do saldo original
+	 * estar negativo ou não */
+	@Then("deve efutuar o saque e atualizar o saldo da conta para {int} reais")
+	public void deve_efutuar_o_saque_e_atualizar_o_saldo_da_conta_para_reais(Integer int1) {
 	    throw new io.cucumber.java.PendingException();
 	}
 
+	/** Um cliente comum está com um determinado valor inteiro disponível em sua conta */
 	@Given("Um cliente comum com saldo atual de {int} reais")
 	public void um_cliente_comum_com_saldo_atual_de_reais(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("Solicitar um saque de {int} reais")
-	public void solicitar_um_saque_de_reais(Integer int1) {
-	    // Write code here that turns the phrase above into concrete actions
+	/** O cliente solicita um determinado valor inteiro de saque em sua conta */
+	@When("solicitar um saque no valor de {int} reais")
+	public void solicitar_um_saque_no_valor_de_reais(Integer int1) {
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@Then("Nao deve efetuar o saque e deve retornar a mensagem Saldo Insuficiente")
-	public void nao_deve_efetuar_o_saque_e_deve_retornar_a_mensagem_saldo_insuficiente() {
-	    // Write code here that turns the phrase above into concrete actions
+	/** Caso o valor solicitado para o saque seja maior que o valor disponível na conta, o saque não é efetuado,
+	 * e deve ser retornada uma mensagem de aviso de saldo insuficiente */
+	@Then("não deve efutuar o saque e deve retornar a mensagem Saldo Insuficiente")
+	public void não_deve_efutuar_o_saque_e_deve_retornar_a_mensagem_saldo_insuficiente() {
 	    throw new io.cucumber.java.PendingException();
 	}
 }

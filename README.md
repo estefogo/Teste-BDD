@@ -1,6 +1,7 @@
 <h1>BDD <i>(Behavior Driven Development)</i>: Implementação do <i>Cucumber</i> no desenvolvimento orientado a comportamento</h1>
 <h3>Autor: Rafaela Mendonça Estefogo</h3>
 <h3>Contato: rafaelamestefogo@gmail.com</h3>
+<>hr</>
 
 <h2>Sobre as ferramentas utilizadas:</h2>
 <p>A framework utilizada para a realização dos testes foi o <i>Cucumber</i>, que é definido como uma framework de testes BDD <i>(Behavior Driven Development)</i> ou seja, com foco no desenvolvimento orientado a comportamentos. Isso significa que a framework em questão compara os resultados de um determinado código com os comportamentos esperados, auxiliando o desenvolvedor a analisar a relação entre aquilo que era previsto e aquilo que de fato foi obtido. Para sua implementação, foi utilizada neste projeto a ferramenta de desenvolvimento Eclipse IDE for Java Developers (versão 2022-09).</p>

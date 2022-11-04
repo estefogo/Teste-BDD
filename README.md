@@ -1,4 +1,4 @@
-<h1>BDD <i>(Behavior Driven Development)</i>: Implementação do <i>Cucumber</i> no desenvolvimento orientado a comportamento</h1>
+<h1>BDD <i>(Behavior Driven Development)</i>: Implementação do <i>Cucumber</i> em um exemplo de desenvolvimento orientado a comportamento</h1>
 <h3>Autor: Rafaela Mendonça Estefogo</h3>
 <h3>Contato: rafaelamestefogo@gmail.com</h3>
 <hr>
